@@ -1,0 +1,162 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+p {
+	line-height: 150%
+}
+
+/*STYLING*/
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	background: black;
+	overflow: auto;
+	margin: auto;
+}
+
+header a {
+	color: white;
+}
+h1 a {
+	color: #ffff00;
+	font-size: 2em;
+	padding: 1em;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+ul li {
+	font-size: 1.5em;
+	padding: 1.5em 0.35em;
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.menu li strong {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+/*
+a:visited {
+	text-decoration: none;
+	color: yellow;
+}*/
+
+.tagline {
+	font-family: serif;
+	text-align: center;
+	margin: 0;
+	padding: 1em 3%;
+	font-size: 1.3em;
+	font-style: italic;
+	background: #C6C6C6;
+	border-top: 4px solid #ffff00;
+}
+
+h2 del {
+	color: #999;
+}
+
+h2 ins {
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+}
+
+.image {
+	background: url(./images/coworking.jpg) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 3%;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+.box {
+	max-width: 1280px;
+	margin: auto;
+}
+.box-text {
+	background-color: rgba(255,255,255,0.8);
+	font-family: sans-serif;
+	width: 35%;
+	padding: 3%;
+	margin: 0;
+	float: right;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+.box-text p {
+	margin: 0 0 0.5em 0;
+}
+
+.box-text h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.button {
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: yellow;
+	color: black;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.25);
+	letter-spacing: 1px;
+}
+.columns {
+	background-color: white;
+	overflow: auto;
+}
+.column {
+	width: 30%;
+	height: 300px;
+	padding: 2rem,
+	position: relative;
+	float:left;
+}
+
+div h4
+	font-family: serif;
+	font-size: 1.25em;
+	font-weight: bold;
+
+footer {
+	background: black;
+	color: white;
+	padding: 2% 3%;
+	position:relative;
+}
